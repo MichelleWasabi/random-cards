@@ -1,0 +1,41 @@
+.mainCard {
+  height: 28em;
+  width: 20em;
+  background-color: white;
+  border-radius: 1em;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+#topSuit {
+  font-size: 100px;
+  position: absolute;
+  top: -20px;
+  left: 10px; 
+}
+
+#bottomSuit{
+  transform: rotate(180deg);
+  font-size: 100px;
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+}
+#randomNum{
+  font: 150px/440px Times New Roman, serif;
+  text-align: center;
+  margin: auto; 
+}
+
+.redSuit{
+  color: red;
+}
+
+.blackSuit{
+   color: black;
+} 
+
+.cardBtn {
+  font-size: 1.2em !important;
+}
+
